@@ -14,7 +14,7 @@
 class Solution:
     def detectCycle(self, head: Optional[ListNode]) -> Optional[ListNode]:
     # 遇到不等於起點
-    # https://chiafangsung.medium.com/%E6%89%BE%E5%87%BA%E9%87%8D%E8%A4%87%E6%95%B8%E5%AD%97-floyd-cycle-detection-algorithm-%E9%BE%9C%E5%85%94%E8%B3%BD%E8%B7%91%E6%BC%94%E7%AE%97%E6%B3%95-c7c2a0315f68
+    # https://blog.csdn.net/Acx77/article/details/122725947
     # Floyd Cycle Detection Algorithm 的方法可以歸納為以下幾個步驟:
     # 使用快慢兩個指標 fast 和 slow。
     # 從頭結點開始,slow每次移動一個結點,fast每次移動兩個結點。
