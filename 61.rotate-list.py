@@ -19,7 +19,7 @@ class Solution:
             while x.next:
                 x = x.next
                 length += 1
-            count = length - (k % length)
+            count = length - (k % length)  # 往回走幾步
             if length == 1 or count ==0:
                 return head
             else:
